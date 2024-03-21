@@ -1,4 +1,4 @@
-const fs = require("fs");
+import fs from "fs";
 
 // Read the file
 fs.readFile(".data/inventoryRelics.json", "utf8", (err, data) => {

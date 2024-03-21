@@ -1,6 +1,6 @@
-const fs = require("fs");
-const path = require("path");
-const { Parser } = require("json2csv");
+import fs from "fs";
+import path from "path";
+import { Parser } from "json2csv";
 
 // Read the JSON file
 const data = fs.readFileSync(

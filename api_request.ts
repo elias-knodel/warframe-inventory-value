@@ -1,6 +1,5 @@
 import fs from "fs";
 import moment from "moment";
-import { ExitStatus } from "typescript";
 
 // Read the names from the file
 const names = JSON.parse(fs.readFileSync(".output/relic_names.json", "utf8"));
